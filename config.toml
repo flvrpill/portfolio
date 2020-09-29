@@ -6,21 +6,21 @@ summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Ryan"
 [[menu.footer]]
-URL = "tools"
-name = "Tools"
-weight = 2
+URL = "contact"
+name = "Contact"
+weight = 1
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.main]]
 URL = "tools"
-name = "Tools"
+name = "tools"
 weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
+weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
@@ -31,7 +31,7 @@ description = "This is meta description"
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Home"
-logo = ""
+logo = "/images/0.jpg"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/banner/illustration.svg"
